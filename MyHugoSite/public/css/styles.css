@@ -1,12 +1,12 @@
 header {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
   
   main {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     flex: 1;
   }
@@ -24,7 +24,8 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: #f8f8f8; /* Example background */
+    background-color: #a4a4a4a9; /* Example background */
+    color: #3e3e3e
   }
   
   footer .contact-info {
@@ -46,3 +47,30 @@ header {
     display: flex;
     flex-direction: column;
   }
+
+/* SEÇÃO PARA IDs */
+
+#index-center-image{
+  padding: 10px; /* Adds space inside the image border */
+  margin: 10px;  /* Adds space outside the image border */
+}
+
+#index-center-nav{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row; /* Change to row to align items horizontally */
+  align-items: left;
+  justify-content: space-between; /* Space items out evenly with space between them */
+  gap: 30px;
+}
+
+#index-center-nav a {
+  margin: 0 10px; /* Adds 15px space between each icon */
+}
+
+#index-center-nav img{
+  width: 32px;  /* Adjusts the size of the icons */
+  height: 32px; /* Adjusts the size of the icons */
+
+}
+
