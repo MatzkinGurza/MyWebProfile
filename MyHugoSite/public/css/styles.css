@@ -12,6 +12,7 @@ header {
     padding-bottom: 10px;
     background-color:  #0000009d; /* Example background */;
     color:white;
+    box-shadow: 0 0 30px rgba(1, 1, 1, 0.8);       
   }
 
   header a {
@@ -98,7 +99,7 @@ header {
     margin-bottom: 20px;
     margin-right: 20px;
     border-radius: 3%;
-    background-color: rgba(0, 0, 0, 0.429);
+    background-color: rgba(0, 0, 0, 0.725);
     color:rgb(255, 255, 255);
   }
   
@@ -109,7 +110,8 @@ header {
     justify-content: center;
     padding: 20px;
     background-color: #000000ad; /* Example background */
-    color: #ffffff
+    color: #ffffff;
+    box-shadow: 0 0 30px rgba(1, 1, 1, 0.8);   
   }
   
   footer .contact-info {
@@ -151,8 +153,10 @@ header {
 }
 
 #index-center-image img{
-  border-radius: 100%;
+  border-radius: 5%;
+  box-shadow: 0 0 40px rgba(0, 0, 66, 0.8);          /* Outside dark blue shadow */
 }
+
 
 #index-center-nav{
   margin-top: 20px;
