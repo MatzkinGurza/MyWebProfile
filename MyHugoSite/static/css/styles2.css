@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* General Typography */
+body, button {
+    font-family: 'Roboto Condensed', 'sans-serif';
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Oswald";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+header a, footer, div.home-main-subdivision {
+    font-family: "Oswald","Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* Header Design */
+header {
+    display: flex;
+    box-sizing: border-box;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 5%;
+    background-color: rgba(0, 0, 66, 0.604); /* Dark transparent navy */
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 66, 0.7); /* Softer shadow */
+}
+
+header a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding:15px;
+    transition: transform 0.3s ease;
+}
+
+header a:hover {
+    background-color: #536DFE; /* Bright techy hover color */
+    padding: 10px;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+/* Buttons */
+button {
+    background-color: #397AF4; /* Techy blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2a62d4; /* Darker hover for buttons */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Layout and Structure */
+main {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px 5%;
+    flex: 1;
+    /*background: linear-gradient(135deg, #397AF4 0%, #0E1C26 100%);  *//*Gradient background */
+}
+
+/* Main Section Flexbox */
+div.home-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: inherit;
+}
+
+/* Image Container */
+#index-center-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+#index-center-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6); /* Blue shadow for techy vibe */
+}
+
+/* Content Container */
+div.home-main-subdivision {
+    flex: 2;
+    background-color: rgba(0, 0, 66, 0.7); /* Transparent dark background */
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.429);
+}
+
+/* Social and Navigation Links */
+#button-grouping-row {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-right: 20px;
+    gap:20px
+}
+
+#button-grouping-row button{
+    margin: 0 10px; /* Adds 10px space between each icon */
+}
+
+
+#index-center-nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+#index-center-nav img {
+    width: 40px; /* Slightly larger icons for a modern feel */
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+#index-center-nav img:hover {
+    transform: scale(1.2); /* Hover effect on icons */
+}
+
+#index-center-nav a {
+    margin: 0 10px; /* Adds 10px space between each icon */
+  }
+
+/* Footer Design */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 66); /* Darker footer */
+    color: #CCCCCC; /* Softer text */
+}
+
+footer .contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .copyright {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem; /* Optional styling for text size */
+}
+
+/* General Body Styling */
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /*background-color: #0E1C26; *//* Dark background for cleaner look */
+    background: linear-gradient(45deg, #01060f 0%, #26a5ff 100%);
+    height: 100%;
+}
