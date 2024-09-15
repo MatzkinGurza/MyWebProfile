@@ -9,25 +9,25 @@
     <lastBuildDate>Fri, 13 Sep 2024 00:11:22 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Flask</title>
-      <link>http://localhost:1313/experience/flask/</link>
+      <title>Analista de Projetos na Poli Júnior</title>
+      <link>http://localhost:1313/experience/polijunioranalista/</link>
       <pubDate>Fri, 13 Sep 2024 00:11:22 -0300</pubDate>
-      <guid>http://localhost:1313/experience/flask/</guid>
-      <description>&lt;p&gt;Aprenda Flask em apenas quatro passos!&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Step one&lt;/li&gt;&#xA;&lt;li&gt;Step two&lt;/li&gt;&#xA;&lt;li&gt;????&lt;/li&gt;&#xA;&lt;li&gt;PROFIT!!!&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/experience/polijunioranalista/</guid>
+      <description>&lt;h3 id=&#34;analista-de-projetos-na-poli-júnior&#34;&gt;Analista de Projetos na Poli Júnior&lt;/h3&gt;</description>
     </item>
     <item>
-      <title>Poli Júnior</title>
-      <link>http://localhost:1313/experience/polijunior/</link>
+      <title>Coordenador de Projetos na Poli Júnior</title>
+      <link>http://localhost:1313/experience/polijuniorcoord/</link>
       <pubDate>Fri, 13 Sep 2024 00:11:22 -0300</pubDate>
-      <guid>http://localhost:1313/experience/polijunior/</guid>
-      <description>&lt;p&gt;Aprenda polijunio em apenas quatro passos!&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Step one&lt;/li&gt;&#xA;&lt;li&gt;Step two&lt;/li&gt;&#xA;&lt;li&gt;????&lt;/li&gt;&#xA;&lt;li&gt;PROFIT!!!&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/experience/polijuniorcoord/</guid>
+      <description>&lt;h3 id=&#34;coordenador-de-projetos-na-poli-júnior&#34;&gt;Coordenador de Projetos na Poli Júnior&lt;/h3&gt;</description>
     </item>
     <item>
-      <title>Django</title>
-      <link>http://localhost:1313/experience/django/</link>
+      <title>Gerente de Projetos na Poli Júnior</title>
+      <link>http://localhost:1313/experience/polijuniorgerente/</link>
       <pubDate>Fri, 13 Sep 2024 00:10:31 -0300</pubDate>
-      <guid>http://localhost:1313/experience/django/</guid>
-      <description>&lt;p&gt;Aprenda Django em apenas quatro passos!&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Step one&lt;/li&gt;&#xA;&lt;li&gt;Step two&lt;/li&gt;&#xA;&lt;li&gt;????&lt;/li&gt;&#xA;&lt;li&gt;PROFIT!!!&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/experience/polijuniorgerente/</guid>
+      <description>&lt;h3 id=&#34;gerente-de-projetos-na-poli-júnior&#34;&gt;Gerente de Projetos na Poli Júnior&lt;/h3&gt;</description>
     </item>
     <item>
       <title>About</title>

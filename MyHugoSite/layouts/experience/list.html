@@ -1,11 +1,11 @@
 {{ define "main" }}
     <h2>{{ .Title }}</h2>
     <h2>AAAAA</h2>
-    <div class="list-exp">
-        <ul>
+    <div class="range-wrapper">
             {{ range .Pages }}
-                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                <div class="link-wrapper">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </div>
             {{ end }}
-        </ul>
     </div>
 {{ end }}
