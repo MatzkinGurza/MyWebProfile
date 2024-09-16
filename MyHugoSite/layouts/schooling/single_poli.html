@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<div class="exp-main">
+
+    <div class="exp-box">
+        <div class="exp-img">
+        </div>
+        <div class="exp-title"> 
+            {{ with .GetPage "textfiles/poli" }} 
+                {{ .Title }}
+            {{ end }}  
+        </div>
+        <div class="exp-text">
+            {{ with .GetPage "textfiles/poli" }}
+                {{ .Content }}
+            {{ end }}
+        </div>
+    </div>
+
+</div>
+
+
+{{ end }}

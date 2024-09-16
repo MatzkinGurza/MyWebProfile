@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mateus Matzkin Gurza</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Mateus Matzkin Gurza</description>
+    <title>Schoolings on Mateus Matzkin Gurza</title>
+    <link>http://localhost:1313/schooling/</link>
+    <description>Recent content in Schoolings on Mateus Matzkin Gurza</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Sep 2024 00:10:31 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/schooling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Business Training Company</title>
       <link>http://localhost:1313/schooling/btc/</link>
@@ -28,20 +28,6 @@
       <pubDate>Fri, 13 Sep 2024 00:10:31 -0300</pubDate>
       <guid>http://localhost:1313/schooling/escolapolitecnica/</guid>
       <description>&lt;p&gt;&lt;em&gt;São Paulo, SP, de fev.2022 - dez.2026&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Poli</title>
-      <link>http://localhost:1313/textfiles/poli/</link>
-      <pubDate>Fri, 13 Sep 2024 00:10:31 -0300</pubDate>
-      <guid>http://localhost:1313/textfiles/poli/</guid>
-      <description>&lt;h1 id=&#34;schooling-poli&#34;&gt;schooling poli&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;texto&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Thu, 12 Sep 2024 23:23:50 -0300</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Esta página contém informações sobre minha humilde pessoa.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

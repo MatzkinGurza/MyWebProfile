@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-09-13T00:11:22-03:00</lastmod>
+    <lastmod>2024-09-13T00:10:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/experience/polijunioranalista/</loc>
-    <lastmod>2024-09-13T00:11:22-03:00</lastmod>
+    <loc>http://localhost:1313/schooling/bandeirantes/</loc>
+    <lastmod>2024-09-13T00:10:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/experience/polijuniorcoord/</loc>
-    <lastmod>2024-09-13T00:11:22-03:00</lastmod>
+    <loc>http://localhost:1313/schooling/btc/</loc>
+    <lastmod>2024-09-13T00:10:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/experience/</loc>
-    <lastmod>2024-09-13T00:11:22-03:00</lastmod>
+    <loc>http://localhost:1313/schooling/escolapolitecnica/</loc>
+    <lastmod>2024-09-13T00:10:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/experience/polijuniorgerente/</loc>
+    <loc>http://localhost:1313/textfiles/poli/</loc>
+    <lastmod>2024-09-13T00:10:31-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/schooling/</loc>
+    <lastmod>2024-09-13T00:10:31-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/textfiles/</loc>
     <lastmod>2024-09-13T00:10:31-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>

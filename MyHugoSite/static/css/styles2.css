@@ -182,3 +182,76 @@ body {
     background: linear-gradient(45deg, #01060f 0%, #26a5ff 100%);
     height: 100%;
 }
+
+/* List pages */
+.link-wrapper {
+    background-color: #4B89F4;
+    color: white;
+    padding: 5px; /* Adjusted padding for a tighter, more consistent look */
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Slightly smaller gap for better visual consistency */
+    width: 600px;
+    flex-wrap: wrap; /* Allow content to wrap to avoid overflow */
+    
+}
+
+/* Image styling */
+.link-wrapper img.list-side-img {
+    width: 130px; /* Set a fixed width for the image */
+    height: 130px; /* Set a fixed height for the image */
+    object-fit: contain; /* Ensure the image fits within the given dimensions */
+    border-radius: 5px; /* Keep the image rectangular with slightly rounded corners */
+    margin-right: 20px; /* Add some space between the image and the text */
+    margin-left: 20px;
+}
+
+/* Wrapper for the text (link + description) */
+.link-text-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack the link and description vertically */
+    justify-content: flex-start; /* Align text items to the top */
+    flex-grow: 1; /* Make the text take the remaining space */
+}
+
+/* Link styling */
+.link-wrapper a {
+    color: white;
+    font-size: 1.2em; /* Increased font size for links */
+    text-decoration: none;
+    margin-bottom: 5px; /* Space between link and description */
+}
+
+/* Hover effects */
+.link-wrapper:hover {
+    background-color: #3467D6; /* Darker blue on hover */
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.link-wrapper a:hover {
+    text-decoration: underline; /* Underline the link on hover for clarity */
+}
+
+/* List wrapper layout */
+.list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Gap between items */
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 600px; /* Limit width for better readability */
+    
+}
+
+/* Description styling */
+.Description {
+    margin-top: 5px; /* Less margin for tighter spacing */
+    color: rgba(255, 255, 255, 0.85); /* Slightly lighter description text */
+    font-size: 1em;
+    font-style: italic;
+}

@@ -1,11 +1,37 @@
 {{ define "main" }}
-    <div class="exp-box">
-        <div class="exp-img">
+
+    <div class="exp-main">
+
+        <div class="exp-box">
+            <div class="exp-img">
+            </div>
+            <div class="exp-title"> 
+                {{ with .GetPage "experience/polijunioranalista" }} 
+                    {{ .Title }}
+                {{ end }}  
+            </div>
+            <div class="exp-text">
+                {{ with .GetPage "experience/polijunioranalista" }}
+                    {{ .Content }}
+                {{ end }}
+            </div>
         </div>
-        <div class="exp-title">   
+
+        <div class="exp-box">
+            <div class="exp-img">
+            </div>
+            <div class="exp-title"> 
+                {{ with .GetPage "experience/polijuniorcoord" }} 
+                    {{ .Title }}
+                {{ end }}  
+            </div>
+            <div class="exp-text">
+                {{ with .GetPage "experience/polijuniorcoord" }}
+                    {{ .Content }}
+                {{ end }}
+            </div>
         </div>
-        <div class="exp-text">
-            {{.Content}}
-        </div>
+
     </div>
+
 {{ end }}

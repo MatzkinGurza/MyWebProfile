@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+    <h2>Formação Acadêmica</h2>
+
+    <div class="list-wrapper">
+        {{ range .Pages }}
+            <div class="link-wrapper">
+                <img src="{{ "images/" | relURL }}{{ .Params.image }}" alt="{{ .Title }}" class="list-side-img">
+                <div class="link-text-wrapper">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    <div class="Description">
+                        {{.Content}}
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+    </div>
+
+{{ end }}
