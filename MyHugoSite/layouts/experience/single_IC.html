@@ -1,2 +1,51 @@
 {{ define "main" }}
+
+    <div class="exp-main">
+
+        <div class="exp-box">
+            <div class="exp-img">
+            </div>
+            <article class="exp-text">
+                {{ with .GetPage "textfiles/" }}
+                    {{ .Title }}
+                    {{ .Content }}
+                {{ end }}
+            </article>
+        </div>
+
+        <div class="exp-box">
+            <div class="exp-img">
+            </div>
+            <article class="exp-text">
+                {{ with .GetPage "textfiles/" }}
+                    {{ .Title }}
+                    {{ .Content }}
+                {{ end }}
+            </article>
+        </div>
+
+        <div class="exp-box">
+            <div class="exp-img">
+            </div>
+            <article class="exp-text">
+                {{ with .GetPage "textfiles/" }}
+                    {{ .Title }}
+                    {{ .Content }}
+                {{ end }}
+            </article>
+        </div>
+
+        <div class="exp-box">
+            <div class="exp-img">
+            </div>
+            <article class="exp-text">
+                {{ with .GetPage "textfiles/" }}
+                    {{ .Title }}
+                    {{ .Content }}
+                {{ end }}
+            </article>
+        </div>
+
+    </div>
+
 {{ end }}

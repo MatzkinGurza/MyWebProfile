@@ -262,4 +262,54 @@ body {
     font-style: italic;
 }
 
+/*single_... sections of the site */
 
+.exp-main {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os blocos se reorganizem quando não couberem na mesma linha */
+    justify-content: space-between;
+    gap: 20px; /* Espaçamento entre os blocos */
+}
+
+.exp-box {
+    background-color: #002855; /* Cor azul escura como fundo */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 40px); /* Faz os blocos ocuparem 1/3 da largura, ajustando conforme necessário */
+    min-width: 300px; /* Largura mínima antes de quebrar para a próxima linha */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve para efeito de elevação */
+    color: white; /* Texto branco */
+}
+
+.exp-box:hover {
+    transform: translateY(-5px); /* Elevação ao passar o mouse */
+    transition: 0.3s; /* Transição suave */
+}
+
+.exp-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004d99; /* Azul mais claro para o fundo da imagem */
+    border-radius: 50%; /* Formato circular */
+    width: 100px; /* Tamanho fixo da imagem */
+    height: 100px;
+    margin: 0 auto 20px auto; /* Centraliza no topo do bloco */
+}
+
+.exp-text {
+    text-align: left; /* Texto alinhado à esquerda */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .exp-box {
+        flex: 1 1 calc(50% - 40px); /* Ajusta para 2 blocos por linha em telas médias */
+    }
+}
+
+@media (max-width: 480px) {
+    .exp-box {
+        flex: 1 1 100%; /* Um bloco por linha em telas pequenas */
+    }
+}

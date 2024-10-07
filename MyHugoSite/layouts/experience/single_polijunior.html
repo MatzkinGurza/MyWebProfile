@@ -6,44 +6,66 @@
             <div class="exp-img">
             </div>
             <article class="exp-text">
-                {{ with .GetPage "experience/pj_analista" }}
+                {{ with .GetPage "textfiles/pj_analista" }}
                     {{ .Title }}
                     {{ .Content }}
                 {{ end }}
-            </div>
+            </article>
         </div>
 
         <div class="exp-box">
             <div class="exp-img">
             </div>
             <article class="exp-text">
-                {{ with .GetPage "experience/pj_cordenador" }}
+                {{ with .GetPage "textfiles/pj_coordenador" }}
                     {{ .Title }}
                     {{ .Content }}
                 {{ end }}
-            </div>
+            </article>
         </div>
 
         <div class="exp-box">
             <div class="exp-img">
             </div>
             <article class="exp-text">
-                {{ with .GetPage "experience/pj_gerente" }}
+                {{ with .GetPage "textfiles/pj_gerente" }}
                     {{ .Title }}
                     {{ .Content }}
                 {{ end }}
-            </div>
+            </article>
         </div>
 
         <div class="exp-box">
             <div class="exp-img">
             </div>
             <article class="exp-text">
-                {{ with .GetPage "experience/pj_treinamentos" }}
+                {{ with .GetPage "textfiles/pj_hunter" }}
                     {{ .Title }}
                     {{ .Content }}
                 {{ end }}
+            </article>
+        </div>
+
+        <div class="exp-box">
+            <div class="exp-img">
             </div>
+            <article class="exp-text">
+                {{ with .GetPage "textfiles/pj_case" }}
+                    {{ .Title }}
+                    {{ .Content }}
+                {{ end }}
+            </article>
+        </div>
+
+        <div class="exp-box">
+            <div class="exp-img">
+            </div>
+            <article class="exp-text">
+                {{ with .GetPage "textfiles/pj_treinamentos" }}
+                    {{ .Title }}
+                    {{ .Content }}
+                {{ end }}
+            </article>
         </div>
 
     </div>

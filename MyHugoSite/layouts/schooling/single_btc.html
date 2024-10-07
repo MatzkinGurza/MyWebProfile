@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+    <div class="exp-main">
+
+        <div class="exp-box">
+            <div class="exp-img">
+            </div>
+            <article class="exp-text">
+                {{ with .GetPage "textfiles/btc_gbp" }}
+                    {{ .Title }}
+                    {{ .Content }}
+                {{ end }}
+            </article>
+        </div>
+
+    </div>
+
+{{ end }}
