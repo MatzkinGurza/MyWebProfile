@@ -1,11 +1,19 @@
 {{ define "main" }}
-    <h2>{{ .Title }}</h2>
-    <h2>AAAAA</h2>
-    <div class="range-wrapper">
-            {{ range .Pages }}
-                <div class="link-wrapper">
-                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+
+<h2 class="list-title">EXPERIÊNCIAS</h2>
+
+<div class="list-wrapper">
+    {{ range .Pages }}
+        <div class="link-wrapper">
+            <img src="{{ "images/" | relURL }}{{ .Params.image }}" alt="{{ .Title }}" class="list-side-img">
+            <div class="link-text-wrapper">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <div class="Description">
+                    {{.Content}}
                 </div>
-            {{ end }}
-    </div>
+            </div>
+        </div>
+    {{ end }}
+</div>
+
 {{ end }}

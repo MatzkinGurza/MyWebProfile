@@ -9,32 +9,39 @@
     <lastBuildDate>Fri, 13 Sep 2024 00:10:31 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Business Training Company</title>
-      <link>http://localhost:1313/schooling/btc/</link>
+      <title>Escola Politécnica da USP</title>
+      <link>http://localhost:1313/schooling/escolapolitecnica/</link>
       <pubDate>Fri, 13 Sep 2024 00:10:31 -0300</pubDate>
-      <guid>http://localhost:1313/schooling/btc/</guid>
-      <description>&lt;p&gt;&lt;em&gt;São Paulo, SP, de ago.2024 - dez.2024&lt;/em&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/schooling/escolapolitecnica/</guid>
+      <description>&lt;p&gt;&lt;em&gt;São Paulo, SP, de fev.2022 - dez.2026&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;A Escola Politécnica da USP, faculdade onde me inseri na graduação em Engenharia Mecatrônica, é um ambiente desafiador, competitivo e simultaneamente cheio de oportunidades. Aqui constroem-se habilidades de resolução de problemas que envolvem as várias faces da engenharia e preparam o aluno para lidar com as exigências contempoâneas, que no caso da engenharia mecatrônica, abrangem a computação, eletrônica, mecânica, controle e automação.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Colégio Bandeirantes</title>
       <link>http://localhost:1313/schooling/bandeirantes/</link>
       <pubDate>Fri, 13 Sep 2024 00:10:31 -0300</pubDate>
       <guid>http://localhost:1313/schooling/bandeirantes/</guid>
-      <description>&lt;p&gt;&lt;em&gt;São Paulo, SP, de jan.2018 - dez.2020&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;em&gt;São Paulo, SP, de jan.2018 - dez.2020&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Insituição onde completei meu ensino médio e entrei em contato com pessoas e experiências que me levaram a trilhar o caminho da engenharia.&#xA;Além da formação que aqui obtive, me envolvi com iniciativas que me formaram intelectualmente e como pessoa e me colocaram pela primeira vez em posição de decisor.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Escola Politécnica da USP</title>
-      <link>http://localhost:1313/schooling/escolapolitecnica/</link>
+      <title>Business Training Company</title>
+      <link>http://localhost:1313/schooling/btc/</link>
       <pubDate>Fri, 13 Sep 2024 00:10:31 -0300</pubDate>
-      <guid>http://localhost:1313/schooling/escolapolitecnica/</guid>
-      <description>&lt;p&gt;&lt;em&gt;São Paulo, SP, de fev.2022 - dez.2026&lt;/em&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/schooling/btc/</guid>
+      <description>&lt;p&gt;&lt;em&gt;São Paulo, SP, de ago.2024 - dez.2024&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;A Business Training Company entra como um curso importante de 5 meses na minha formação, presenteado como despedida do meu cargo na Empresa Júnior da Poli (encontra-se em &amp;ldquo;Experiências&amp;rdquo;). Aqui aprendi sobre diversos temas que estiveram fora do escopo da minha formação como engenheiro mecatrônico, consolidando uma base forte em negócios, estratégia e gestão financeira, um diferencial na comunidade de mecatrônica.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Poli</title>
-      <link>http://localhost:1313/textfiles/poli/</link>
+      <title>Iniciação Científica</title>
+      <link>http://localhost:1313/experience/ic/</link>
       <pubDate>Fri, 13 Sep 2024 00:10:31 -0300</pubDate>
-      <guid>http://localhost:1313/textfiles/poli/</guid>
-      <description>&lt;h1 id=&#34;schooling-poli&#34;&gt;schooling poli&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;texto&lt;/p&gt;</description>
+      <guid>http://localhost:1313/experience/ic/</guid>
+      <description>&lt;p&gt;Com o objetivo de me aprofundar no meu interesse em Inteligência Artificial e desenvolver um conhecimento acadêmico e prático aprofundado sobre técnicas avançadas de machine learning, me inseri, por meio de uma iniciação científica, no laboratório de Visão Computacional da USP, Creativision, sediado no centro de inovação da universidade, o Inova USP.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Poli Júnior</title>
+      <link>http://localhost:1313/experience/polijunior/</link>
+      <pubDate>Fri, 13 Sep 2024 00:10:31 -0300</pubDate>
+      <guid>http://localhost:1313/experience/polijunior/</guid>
+      <description>&lt;p&gt;Na Poli Júnior, empresa júnior da escola politécnica da USP, fui capacitado para trabalhar sob as exigências do mercado moderno e aprendi a lidar com a pressão e responsabilidade de entregar projetos personalizados e serviços de consultoria de qualidade na área de Inteligência e Análise de Dados. Tive, também a experiência de exercer cargos de liderança e completar minha jornada na empresa havendo ocupado a posição de Hunter Comercial, Analista de Projetos, Coordenador de Projetos e por fim Gerente do Núcleo de Consultoria em Análise e Inteligência de Dados.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
