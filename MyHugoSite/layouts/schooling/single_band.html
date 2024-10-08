@@ -17,24 +17,15 @@
             <div class="exp-img">
             </div>
             <article class="exp-text">
-                {{ with .GetPage "textfiles/band_optativas" }}
+                {{ with .GetPage "textfiles/band_opt" }}
                     {{ .Title }}
                     {{ .Content }}
                 {{ end }}
             </article>
+            <a href="http://www.oba.org.br/site/index.php?p=conteudo&idcat=22&pag=conteudo&acao=mostra&idaluno=848866&olimp=oba&ed=2019">
+            <button>Certificação de Medalha (OBA)</button></a>
         </div>
 
-        <div class="exp-box">
-            <div class="exp-img">
-            </div>
-            <article class="exp-text">
-                {{ with .GetPage "textfiles/band_extras" }}
-                    {{ .Title }}
-                    {{ .Content }}
-                {{ end }}
-            </article>
-        </div>
-        
     </div>
 
 {{ end }}

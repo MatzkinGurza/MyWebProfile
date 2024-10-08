@@ -6,6 +6,30 @@
             <div class="exp-img">
             </div>
             <article class="exp-text">
+                {{ with .GetPage "textfiles/pj_treinamentos" }}
+                    {{ .Title }}
+                    {{ .Content }}
+                {{ end }}
+            </article>
+            <a href="https://polijunior.com.br/"><button>Site da Poli Júnior</button></a>
+        </div>
+
+        <div class="exp-box">
+            <div class="exp-img">
+            </div>
+            <article class="exp-text">
+                {{ with .GetPage "textfiles/pj_case" }}
+                    {{ .Title }}
+                    {{ .Content }}
+                {{ end }}
+                <a href="https://polijunior.com.br/cases/zoetis/"><button>Case Zoetis no site</button></a>
+            </article>
+        </div>
+
+        <div class="exp-box">
+            <div class="exp-img">
+            </div>
+            <article class="exp-text">
                 {{ with .GetPage "textfiles/pj_analista" }}
                     {{ .Title }}
                     {{ .Content }}
@@ -40,28 +64,6 @@
             </div>
             <article class="exp-text">
                 {{ with .GetPage "textfiles/pj_hunter" }}
-                    {{ .Title }}
-                    {{ .Content }}
-                {{ end }}
-            </article>
-        </div>
-
-        <div class="exp-box">
-            <div class="exp-img">
-            </div>
-            <article class="exp-text">
-                {{ with .GetPage "textfiles/pj_case" }}
-                    {{ .Title }}
-                    {{ .Content }}
-                {{ end }}
-            </article>
-        </div>
-
-        <div class="exp-box">
-            <div class="exp-img">
-            </div>
-            <article class="exp-text">
-                {{ with .GetPage "textfiles/pj_treinamentos" }}
                     {{ .Title }}
                     {{ .Content }}
                 {{ end }}

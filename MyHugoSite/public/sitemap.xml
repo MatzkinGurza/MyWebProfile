@@ -17,10 +17,22 @@
     <loc>http://localhost:1313/textfiles/pj_analista/</loc>
     <lastmod>2024-09-13T00:10:31-03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/textfiles/pj_case/</loc>
+    <lastmod>2024-09-13T00:10:31-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/textfiles/band_ciencias/</loc>
+    <lastmod>2024-09-13T00:10:31-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/textfiles/pj_coordenador/</loc>
     <lastmod>2024-09-13T00:10:31-03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/textfiles/poli_curso/</loc>
+    <lastmod>2024-09-13T00:10:31-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/experience/</loc>
+    <lastmod>2024-09-13T00:10:31-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/textfiles/btc_curso/</loc>
     <lastmod>2024-09-13T00:10:31-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/textfiles/pj_gerente/</loc>
@@ -32,6 +44,15 @@
     <loc>http://localhost:1313/experience/ic/</loc>
     <lastmod>2024-09-13T00:10:31-03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/textfiles/ic_exp/</loc>
+    <lastmod>2024-09-13T00:10:31-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/textfiles/band_opt/</loc>
+    <lastmod>2024-09-13T00:10:31-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/textfiles/poli_optativas/</loc>
+    <lastmod>2024-09-13T00:10:31-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/experience/polijunior/</loc>
     <lastmod>2024-09-13T00:10:31-03:00</lastmod>
   </url><url>
@@ -39,6 +60,9 @@
     <lastmod>2024-09-13T00:10:31-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/textfiles/</loc>
+    <lastmod>2024-09-13T00:10:31-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/textfiles/pj_treinamentos/</loc>
     <lastmod>2024-09-13T00:10:31-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
