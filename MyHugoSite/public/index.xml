@@ -132,7 +132,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 12 Sep 2024 23:23:50 -0300</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Esta página contém informações sobre minha humilde pessoa.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;sobre-mim&#34;&gt;Sobre mim&lt;/h2&gt;&#xA;&lt;p&gt;Meu nome é Mateus Matzkin Gurza e atualmente estou cursando &lt;strong&gt;Engenharia Mecatrônica&lt;/strong&gt; na USP com o objetivo de obter uma educação abrangente que atenda às demandas contemporâneas. Sou uma pessoa muito comunicativa e orientada para as pessoas, com fortes qualidades de liderança, impulsionada pela minha constante busca por expandir meu conhecimento e habilidades técnicas para me tornar cada vez mais capaz de resolver problemas de forma eficaz e sustentável. Gosto de diversificar meus projetos e envolvimento neles, sendo flexível nos campos em que atuo e sempre proativo. Minha inclinação natural para a comunicação e liderança me permite coordenar e liderar equipes de forma eficaz, garantindo o sucesso dos projetos. A seguir, me aprofundarei em outros pontos que acredito serem relevantes sobre minha pessoa.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

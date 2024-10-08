@@ -4,21 +4,22 @@
 
         <div class="exp-box">
             <div class="exp-img">
+                <img src="{{ relURL "images/mecatronica_img.jpg" }}" alt="could not load image" class="article-img">
             </div>
             <article class="exp-text">
                 {{ with .GetPage "textfiles/poli_curso" }}
-                    {{ .Title }}
                     {{ .Content }}
                 {{ end }}
             </article>
+            <a href="http://www.pmr.poli.usp.br/" class="article-logo-link"><img src="{{ relURL "images/mecat_img.png" }}" alt="could not load image" class="article-logo"></a>
         </div>
 
         <div class="exp-box">
             <div class="exp-img">
+                <img src="{{ relURL "images/code_img.jpg" }}" alt="could not load image" class="article-img">
             </div>
             <article class="exp-text">
                 {{ with .GetPage "textfiles/poli_optativas" }}
-                    {{ .Title }}
                     {{ .Content }}
                 {{ end }}
             </article>

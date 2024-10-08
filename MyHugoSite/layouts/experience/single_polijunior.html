@@ -4,10 +4,10 @@
 
         <div class="exp-box">
             <div class="exp-img">
+                <img src="{{ relURL "images/bandeirapj_img.jpeg" }}" alt="could not load image" class="article-img">
             </div>
             <article class="exp-text">
                 {{ with .GetPage "textfiles/pj_treinamentos" }}
-                    {{ .Title }}
                     {{ .Content }}
                 {{ end }}
             </article>
@@ -16,10 +16,10 @@
 
         <div class="exp-box">
             <div class="exp-img">
+                <img src="{{ relURL "images/graph_img.png" }}" alt="could not load image" class="article-img">
             </div>
             <article class="exp-text">
                 {{ with .GetPage "textfiles/pj_case" }}
-                    {{ .Title }}
                     {{ .Content }}
                 {{ end }}
                 <a href="https://polijunior.com.br/cases/zoetis/"><button>Case Zoetis no site</button></a>
@@ -28,10 +28,10 @@
 
         <div class="exp-box">
             <div class="exp-img">
+                <img src="{{ relURL "images/analista_img.jpg" }}" alt="could not load image" class="article-img">
             </div>
             <article class="exp-text">
                 {{ with .GetPage "textfiles/pj_analista" }}
-                    {{ .Title }}
                     {{ .Content }}
                 {{ end }}
             </article>
@@ -39,21 +39,22 @@
 
         <div class="exp-box">
             <div class="exp-img">
-            </div>
-            <article class="exp-text">
-                {{ with .GetPage "textfiles/pj_coordenador" }}
-                    {{ .Title }}
-                    {{ .Content }}
-                {{ end }}
-            </article>
-        </div>
-
-        <div class="exp-box">
-            <div class="exp-img">
+                <img src="{{ relURL "images/equipepj_img.jpeg" }}" alt="could not load image" class="article-img">
             </div>
             <article class="exp-text">
                 {{ with .GetPage "textfiles/pj_gerente" }}
-                    {{ .Title }}
+                    {{ .Content }}
+                {{ end }}
+            </article>
+        </div>
+
+
+        <div class="exp-box">
+            <div class="exp-img">
+                <img src="{{ relURL "images/coord_img.jpeg" }}" alt="could not load image" class="article-img">
+            </div>
+            <article class="exp-text">
+                {{ with .GetPage "textfiles/pj_coordenador" }}
                     {{ .Content }}
                 {{ end }}
             </article>
@@ -61,10 +62,10 @@
 
         <div class="exp-box">
             <div class="exp-img">
+                <img src="{{ relURL "images/hunter_img.jpeg" }}" alt="could not load image" class="article-img">
             </div>
             <article class="exp-text">
                 {{ with .GetPage "textfiles/pj_hunter" }}
-                    {{ .Title }}
                     {{ .Content }}
                 {{ end }}
             </article>

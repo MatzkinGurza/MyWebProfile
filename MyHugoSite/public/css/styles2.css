@@ -42,8 +42,9 @@ header a {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    padding:15px;
-    transition: transform 0.3s ease;
+    padding:10px;
+    margin: 10px;
+    transition: transform 1.0s ease;
 }
 
 header a:hover {
@@ -279,6 +280,7 @@ body {
     min-width: 300px; /* Largura mínima antes de quebrar para a próxima linha */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve para efeito de elevação */
     color: white; /* Texto branco */
+    position: relative;
 }
 
 .exp-box:hover {
@@ -290,11 +292,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #004d99; /* Azul mais claro para o fundo da imagem */
-    border-radius: 50%; /* Formato circular */
-    width: 100px; /* Tamanho fixo da imagem */
-    height: 100px;
+    background-color: #004d9900; /* Azul mais claro para o fundo da imagem */
+    width: 100%; /* Tamanho fixo da imagem */
+    height: 200px;
     margin: 0 auto 20px auto; /* Centraliza no topo do bloco */
+}
+
+.article-img {
+    height: inherit;
+    border-radius: 5%;
+}
+
+.article-logo-link{
+    height: 60px;
+    position: absolute; /* A imagem será posicionada de forma absoluta */
+    bottom: 20; /* Alinha no topo */
+    right: 20; /* Alinha à direita */
+}
+.article-logo{
+    width: 100%;
+    height: 100%;
 }
 
 .exp-text {

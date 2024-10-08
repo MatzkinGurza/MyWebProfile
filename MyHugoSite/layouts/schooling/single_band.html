@@ -4,10 +4,10 @@
 
         <div class="exp-box">
             <div class="exp-img">
+                <img src="{{ relURL "images/clube_img.jpg" }}" alt="could not load image" class="article-img">
             </div>
             <article class="exp-text">
                 {{ with .GetPage "textfiles/band_ciencias" }}
-                    {{ .Title }}
                     {{ .Content }}
                 {{ end }}
             </article>
@@ -15,10 +15,10 @@
 
         <div class="exp-box">
             <div class="exp-img">
+                <img src="{{ relURL "images/opt_img.jpeg" }}" alt="could not load image" class="article-img">
             </div>
             <article class="exp-text">
                 {{ with .GetPage "textfiles/band_opt" }}
-                    {{ .Title }}
                     {{ .Content }}
                 {{ end }}
             </article>

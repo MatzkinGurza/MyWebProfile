@@ -10,4 +10,4 @@ Tive a oportunidade de trabalhar diretamente com clientes seniores do mercado, r
 
 Essa função me preparou para assumir desafios ainda maiores, aprimorando minha capacidade de resolver problemas complexos e entregar resultados que atendem às necessidades específicas de cada cliente.
 
-**Principais habilidades desenvolvidas:** SQL, Web Scraping, Algoritmos de Machine Learning, Power BI, Python, Análise de dados, CRISP-DM, Atendimento ao cliente e Gestão de stakeholders.
+**Principais habilidades desenvolvidas:** SQL, Web Scraping, Algoritmos de Machine Learning, Power BI, Python, Docker, Github, Excel, Análise de dados, CRISP-DM, Atendimento ao cliente e Gestão de stakeholders.

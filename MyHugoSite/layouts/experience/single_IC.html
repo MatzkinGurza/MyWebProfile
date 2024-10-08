@@ -4,10 +4,10 @@
 
         <div class="exp-box">
             <div class="exp-img">
+                <img src="{{ relURL "images/AI_img.png" }}" alt="could not load image" class="article-img">
             </div>
             <article class="exp-text">
                 {{ with .GetPage "textfiles/IC_exp" }}
-                    {{ .Title }}
                     {{ .Content }}
                 {{ end }}
             </article>

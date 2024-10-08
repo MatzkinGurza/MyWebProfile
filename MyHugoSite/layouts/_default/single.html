@@ -1,9 +1,17 @@
 {{ define "main" }}
-    <div class="box-group-wrapper">
-        <div class="box-wrapper">
-            <div class="box-image-wrapper">
-            </div>
-            <div class="box-description">
-            </div>
+<div class="exp-main" id="about">
+
+    <div class="exp-box">
+        <div class="exp-img">
+            <img src="{{ relURL "images/profile_image.png" }}" alt="could not load image" class="article-img">
         </div>
+        <article class="exp-text">
+            {{ with .GetPage "about" }}
+                {{ .Content }}
+            {{ end }}
+        </article>
+    </div>
+
+</div>
+
 {{ end }}
